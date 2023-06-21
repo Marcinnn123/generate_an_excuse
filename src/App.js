@@ -19,8 +19,9 @@ function App() {
       <button onClick={() => fetchExcuse("party")}> Party</button>
       <button onClick={() => fetchExcuse("family")}> Family</button>
       <button onClick={() => fetchExcuse("office")}> Office </button>
-
-      <p> {generatedExcuse} </p>
+      <div className="container">
+        <p> {generatedExcuse} </p>
+      </div>
     </div>
   );
 }
