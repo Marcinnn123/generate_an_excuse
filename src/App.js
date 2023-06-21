@@ -16,7 +16,7 @@ function App() {
   return (
     <div className="App">
       <h1> Generate An Excuse </h1>
-      <button onClick={() => fetchExcuse("party")}> Party</button>
+      <button onClick={() => fetchExcuse("party")}> Partyy</button>
       <button onClick={() => fetchExcuse("family")}> Family</button>
       <button onClick={() => fetchExcuse("office")}> Office </button>
 
